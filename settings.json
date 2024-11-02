@@ -1,0 +1,66 @@
+{
+    "font": {
+        "bigfont": {
+            "font": "VALORANT",
+            "size": "36",
+            "limit": 35,
+            "color": "#ffffff"
+        },
+        "smallfont": {
+            "font": "VALORANT",
+            "size": "25",
+            "limit": 50,
+            "color": "#a0a0a0"
+        },
+        "minifont": {
+            "font": "VALORANT",
+            "size": "20",
+            "limit": 10,
+            "color": "#808080"
+        }
+    },
+    "window": {
+        "scaling": 1.0,
+        "fullscreen": true
+    },
+    "images": {
+        "appicon": "images/spotify.png",
+        "play": "images/new/play.png",
+        "pause": "images/new/pause.png",
+        "skip": "images/new/skip.png",
+        "settings": "images/settings.png",
+        "default": "images/default.png"
+    },
+    "features": {
+        "wait_repeat": 150,
+        "settings_editor": "code/editsettings.py",
+        "main_file": "code/main.py",
+        "album_image": {
+            "size": 640,
+            "rounding": 40,
+            "progress_color": [
+                255,
+                255,
+                255,
+                150
+            ],
+            "progress_width": 10
+        }
+    },
+    "lang": {
+        "paused": "(PAUSED)",
+        "artist_split": " - ",
+        "reload": {
+            "title": "Restart Application?",
+            "message": "Do you want to restart the Application to activate changes?"
+        },
+        "progress": "{pm}:{ps} / {dm}:{ds}"
+    },
+    "re": {
+        "feat": " ?\\(?feat.+\\)?"
+    },
+    "debug": {
+        "debug": false,
+        "darkMode": true
+    }
+}
